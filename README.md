@@ -16,6 +16,12 @@ cd OUILookup
 chmod +x OUILookup.py
 ```
 
+Podría ser necesario instalar la librería *requests* de python:
+
+```bash
+pip3 install requests
+```
+
 ## Uso
 
 ```bash

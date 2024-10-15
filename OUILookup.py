@@ -1,3 +1,7 @@
+# Diana Paola Narváez Martínez: dianapa.narvaez@gmail.com
+# Diego Ruan Padilla: ruan.padilla.diego@gmail.com
+# Bruno Guerra Uteau: guerrauteaub@gmail.com
+
 import getopt, sys, requests
 
 def main():
