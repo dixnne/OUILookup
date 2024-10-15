@@ -28,9 +28,12 @@ def main():
                 
                 if r.status_code == 200:
                     data = r.json()  
-                    company = data.get('company', 'Not found')
+                    company = data.get('company')
                     print(f"MAC address : {mac}")
-                    print(f"Fabricante : {company}")
+                    if company != "":
+                        print(f"Fabricante : {company}")
+                    else: 
+                        print("Fabricante : Not found")
                     print(f"Tiempo de respuesta: {r.elapsed.total_seconds() * 1000:.0f}ms")
                 else:
                     print(f"MAC address : {mac}")
