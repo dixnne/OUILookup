@@ -24,6 +24,7 @@ python3 OUILookup.py [-a,-m {aa:bb:cc...}]
 
 ## Diagrama de flujo de la solución
 
+```mermaid
 flowchart TD
 %% Nodes
     A("Inicio")
@@ -44,3 +45,4 @@ flowchart TD
     D -- No --> E
     D -- Si --> F -- Si --> G --> I --> K
     F -- No --> H --> J --> L
+```
