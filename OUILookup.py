@@ -30,5 +30,7 @@ def main():
             print("--mac: MAC a consultar. P.e. aa:bb:cc:00:00:00.")
             print("--arp: muestra los fabricantes de los host disponibles en la tabla arp.")
             print("--help: muestra este mensaje y termina.")
+        else:
+            print("Algo no jalo :c")
             
 main()
